@@ -86,7 +86,7 @@ int main ()
                 {
                     printf("%d ",arr[i]);
                 }
-                printf("\n");
+                printf("\n\n");
                 break;
             case 5:
             if(size==0)
@@ -117,7 +117,7 @@ int main ()
                 {
                     printf("%d ",arr[i]);
                 }
-                printf("\n");
+                printf("\n\n");
                 break;
             case 6:
                 return 0;
