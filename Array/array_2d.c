@@ -1,4 +1,3 @@
-// C program to demonstrate the use of 2D arrays
 #include<stdio.h>
 int main ()
 {
