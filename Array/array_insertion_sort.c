@@ -45,7 +45,7 @@ int main()
         }
         arr[j+1]=key;
     }
-    printf("\n");
+    printf("\n");   
     printf("The array after sorting in descending order is :\n");
     // printing sorted array in descending order
     printf("Sorted array in descending order : ");
