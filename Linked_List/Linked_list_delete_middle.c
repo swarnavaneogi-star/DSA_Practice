@@ -60,7 +60,10 @@ int main()
     fourth->next = NULL;
     printf("Linked list before deletion:\n");
     traversal_linked_list(head);
-    Linked_list_delete_middle(&head, 1);
+    int position;
+    printf("Enter a postion to delete:\n");
+    scanf("%d",&position);
+     Linked_list_delete_middle(&head,position);
     printf("Linked list after deletion:\n");
     traversal_linked_list(head);
     return 0;
